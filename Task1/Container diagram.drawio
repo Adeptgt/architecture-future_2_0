@@ -132,6 +132,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="KMSEl3_lGVGkuxP7rOq4-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Описание решения&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;p style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Так как в организации уже реализовано много бизнес логики на существующих компонентах в рамках проекта будет крайне рискованно&amp;nbsp; пытаться заменить все что реализовано&amp;nbsp; за годы работы. Оптимальным будет подход&amp;nbsp; при котором новая архитектура работает параллельно с новой, при этом все новые задачи или изменения в существующем функционале производятся с переходом на новый стек.&amp;nbsp; Интеграционные процессы так же будут постепенно переноситься с легаси решения Apache Camel&amp;nbsp; на работу через&amp;nbsp; DataHub. Это позволяет сделать процесс перехода более плавным и оставляет возможность отката к легаси в случае проблем миграции или новом функционале.&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;Для реализации целевого решения выбрана реализация спецификации Apache Iceberg, основными компонентами выбраны:&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;1. Хранение структурированных данных - PostgreSQL&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;2. Хранение не структурированной информации -&amp;nbsp; S3 совместимое решение CEPH&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;4. В качестве инструмента для работы с данными будет использовано ПО Dremio&lt;br style=&quot;padding: 0px; margin: 0px;&quot;&gt;5. В качестве инструмента управления потоками данных будет использовано ПО DataHub&lt;/font&gt;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="160" y="710" width="1240" height="390" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
